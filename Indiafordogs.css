@@ -1,0 +1,21 @@
+body{
+	background-color: DarkOliveGreen;
+}
+h1:hover{
+	color: Lightslategray;
+}
+h2{
+	color: Chocolate;
+}
+h3:hover{
+	color: Maroon;
+}
+#nav{
+	color: Rosybrown;
+}
+.links:link{
+	color: Lightslategray;
+}
+.links:visited{
+	color: Rosybrown;
+}

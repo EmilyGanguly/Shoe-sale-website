@@ -1,0 +1,18 @@
+body{
+	background-color: Lightcyan;
+}
+h3{
+	color: Teal;
+}
+td:first-child{
+	color: Darkcyan;
+} 
+th{
+	color: Teal;
+}
+td:last-child{
+	color: Darkcyan;
+}
+td:nth-child(2){
+	color: Lightseagreen;
+}

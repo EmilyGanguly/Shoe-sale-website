@@ -1,20 +1,44 @@
 body{
-	background-color: DarkOliveGreen;
+	background: radial-gradient(rgba(255, 248, 110,1)50%, rgba(160, 113, 222,1)40%);
+	font-size: 25px;
+	text-align: justify;
+
+}
+h1{
+	font-size: 125px;
+	text-align: center;
+	color: rgb(0,0,0);
+	text-transform: capitalize;
+	font-family: 'Amatic SC', cursive;
+}
+p{
+	font-family: 'Architects Daughter', cursive;
 }
 h1:hover{
-	color: Lightslategray;
+	color: rgba(4, 36, 82,1);
 }
 h2{
+	font-size: 50px;
 	color: Chocolate;
+	font-family: 'Amatic SC', cursive;
+}
+h3{
+	font-size: 28px;
+	font-family: 'Architects Daughter', cursive;
 }
 h3:hover{
 	color: Maroon;
+	font-size: 30px
 }
 #nav{
-	color: Rosybrown;
+	text-align: center;
+	color: rgba(176, 0, 32,0.6);
 }
 .links:link{
-	color: Lightslategray;
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+	font-style: italic;
+	font-size: 23px;
 }
 .links:visited{
 	color: Rosybrown;

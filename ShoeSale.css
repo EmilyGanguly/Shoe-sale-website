@@ -19,7 +19,8 @@ h1:hover{
 }
 body{
 	text-align: justify;
-	background: linear-gradient(rgba(104, 215, 252, 1),rgba(232, 95, 168,1)50%,rgba(14, 1, 71,1)50%)
+	background: linear-gradient(rgba(104, 215, 252, 1),rgba(232, 95, 168,1)50%,rgba(14, 1, 71,1)50%);
+	padding: 20px;
 }
 .title{
 	font-family: 'Ribeye Marrow', cursive;
@@ -46,4 +47,120 @@ p{
 .class{
 	font-family: 'Cookie', cursive;
 	font-size: 35px;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.container-item{
+	width: 400px;
+	height: 120px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	margin: 2px;
+	padding: 5px;
+	background: rgba(219, 158, 218, 1);
+}
+.container-item:hover{
+	width: 410px;
+	height: 128px;
+	border: 2px solid rgba(255, 255, 255, 1);
+	margin: 2px;
+	padding: 3px;
+	background: rgba(219, 158, 218, 1);
+	text-align: center;
+	font-family: 'Ribeye Marrow', cursive;
+	font-size: 32px;
+	color: rgba(87, 87, 87,1);
+}
+#react{
+	font-size: 35px;
+	width: 800px;
+	height: 150px;
+	color: rgba(104, 215, 252, 1);
+	font-family: 'Cookie', cursive;
+	display: flex;
+}
+#react1{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-1.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 0.8);
+	margin: 5px;
+}
+#react2{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-2.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 0.8);
+	margin: 5px;
+}
+#react3{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-3.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 0.8);
+	margin: 5px;
+}
+#react4{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-4.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 0.8);
+	margin: 5px;
+}
+#react5{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-5.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 0.8);
+	margin: 5px;
+}
+#react1:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-1.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 1);
+	margin: 5px;
+}
+#react2:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-2.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 1);
+	margin: 5px;
+}
+#react3:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-3.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 1);
+	margin: 5px;
+}
+#react4:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-4.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 1);
+	margin: 5px;
+}
+#react5:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url("smilies-5.jpg");
+	background-size: cover;
+	border: 7px solid rgba(0, 0, 0, 1);
+	margin: 5px;
+}
+#products{
+	color: rgba(104, 215, 252, 1);
 }

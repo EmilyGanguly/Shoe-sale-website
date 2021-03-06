@@ -28,11 +28,25 @@ h3{
 }
 h3:hover{
 	color: Maroon;
-	font-size: 30px
+	font-size: 30px;
 }
 #nav{
 	text-align: center;
 	color: rgba(176, 0, 32,0.6);
+	font-size: 28px;
+	font-family: 'Architects Daughter', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav-item:hover{
+	text-align: center;
+	color: rgba(176, 0, 32,0.6);
+	font-size: 30px;
+	font-family: 'Architects Daughter', cursive;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .links:link{
 	color: rgba(0,0,0,1);
@@ -42,4 +56,38 @@ h3:hover{
 }
 .links:visited{
 	color: Rosybrown;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+	height: 130px;
+}
+.container-item{
+	width: 300px;
+	height: 75px;
+	text-align: center;
+	border: 3px solid rgba(176, 0, 32,0.6);
+	margin: 3px;
+	padding: 5px;
+	background: rgba(176, 0, 32,0.4);
+	font-family: 'Amatic SC', cursive;
+	font-size: 45px;
+	/*justify-content: space-between;*/
+	justify-content: center;
+	align-items: baseline;
+}
+.container-item:hover{
+	width: 320px;
+	height: 80px;
+	text-align: center;
+	border: 3px solid rgba(176, 0, 32,0.6);
+	margin: 3px;
+	padding: 5px;
+	background: rgba(176, 0, 32,0.4);
+	font-family: 'Amatic SC', cursive;
+	font-size: 49px;
+	/*justify-content: space-between;*/
+	justify-content: center;
+	align-items: baseline;
 }
